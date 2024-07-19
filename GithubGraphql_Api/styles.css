@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+img#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1#username {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ul#repositories {
+    list-style: none;
+    padding: 0;
+}
+
+ul#repositories li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
